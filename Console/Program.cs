@@ -12,7 +12,7 @@ count++;
 }
 string [] array1 = new string [4] {"12", "err", "world", ":-)"};
 string [] array2 = new string [array1.Length];
-
+rearray2 (array1, array2);
 for (int i = 0; i < array2.Length; i++)
 {
 Console.Write($" {array2[i]} ");
